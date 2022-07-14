@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thông tin bất động sản, nhà đẹp, mua bán nhà đất mới nhất.</title>
+    <link rel="icon" href="./images/favicon.svg" sizes="32x32">
+    <meta name="title" content="" />
+    <meta name="description" content="" />
+    <!-- chia sẻ qua facebook -->
+    <meta property="og:locale" content="vi" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Trang chủ" />
+    <meta property="og:description" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:site_name" content="" />
+    <meta property="og:image" content="" />
+    <!-- end chia sẻ qua facebook -->
+    <!-- chia sẻ qua twitter -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Trang chủ" />
+    <meta name="twitter:description" content="" />
+    <meta name="twitter:image" content="" />
+    <!-- chia sẻ qua twitter -->
+    <link rel="stylesheet" href="./font-awesome/fontawesome-free-5.15.4-web/css/all.min.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header id="header">
+        <div class="header w-1280 header-col-3">
+            <div class="header-left">
+                <a href="#">
+                    <img src="./images/largeer_logo.svg" alt="" class="logo-img1">
+                </a>
+                <!-- bar menu mobile -->
+                <div class="header-left-bar show-sub-menu"><i class="fas fa-bars"></i></div>
+                <!-- end bar menu mobile -->
+            </div>
+            <div class="header-center">
+                <form action="" class="flex-1">
+                    <div class="form-group header-search">
+                        <input type="text" name="search" placeholder="Tìm kiếm bài viết..." class="search-header">
+                        <button class="btn btn-search">
+                            <img src="./images/search.svg" alt="" class="search-header-icon">
+                        </button>
+                    </div>
+                </form>
+            </div>
+            <div class="header-right">
+                <!-- register/login  -->
+                <div class="register-login fs-12">
+                    <a href="./register.html" class="btn btn-register">Đăng ký</a>
+                    <a href="./login.html" class="btn btn-login">Đăng nhập</a>
+                </div>
+                <!-- end register/login  -->
+            </div>
+        </div>
+    </header>
+    <!-- form dang nhap -->
+    <div class="login-wrapper">
+        <div class="login-form">
+            <form action="">
+                <div class="login-header">Tài khoản Home today</div>
+                <div class="lgoin-text pb-20">Nếu bạn chưa có tài khoản hãy <a href="#" class="login-link f-bold"> Đăng ký</a> tại đây!</div>
+                <div class="login-header pt-15">Đăng nhập</div>
+                <div class="form-group1">
+                    <label for="input-number" class="lgoin-text">Nhập số điện thoại của bạn</label>
+                    <input type="text" maxlength="10" id="input-number" name="" class="input-number input-number--m25" placeholder="Số điện thoại">
+                    <span class="token-notifi">* Bạn hãy nhập đúng số điện thoại *</span>
+                </div>
+                <div class="form-group1 pb-20 pt-15">
+                    <input type="checkbox" id="agree-rules" checked>
+                    <label for="agree-rules" class="agree-rules-label">Tôi đồng ý <a href="#" class="login-link ">điều khoản và điều kiện</a></label>
+
+                </div>
+                <div class="">
+                    <button type="submit" class="login-btn btn btn-blue">Tiếp tục</button>
+                    <span class="login-btn login-btn-close button-cancel btn">Hủy</span>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- end form dang nhap -->
+    <!-- sub menu mobile -->
+    <div class="sub-menu-block">
+        <!-- search -->
+        <div class="search-mb">
+            <span class="close-search"><i class="fas fa-times"></i></span>
+            <form action="" class="flex-1">
+                <div class="form-group header-search">
+                    <input type="text" name="search" placeholder="Tìm kiếm bài viết..." class="search-header">
+                    <button class="btn btn-search">
+                        <img src="./images/search.svg" alt="" class="search-header-icon">
+                    </button>
+                </div>
+            </form>
+            <a href="./register.html" class="btn btn-register">Đăng ký</a>
+            <a href="./login.html" class="btn btn-login">Đăng nhập</a>
+        </div>
+        <!-- end search -->
+    </div>
+    <!-- end sub menu mobile -->
+    <main id="main">
+        <div class="w-1080 main-group main-form-group">
+            <div>
+                <form action="" id="form-register" method="" class="form" autocomplete="off">
+                    <h1 class="heading-form">Tạo tài khoản Home today</h1>
+                    <p class="des-form">Đăng ký bằng số điện thoại di dộng của bạn</p>
+                    <div class="form-group-t">
+                        <label for="phone-number" class="form-label">Di động</label>
+                        <div class="block-phone-number">
+                            <input type="button" value="+84" class="form-control-t form-control-prevfix">
+                            <input type="tel" id="phone-number" class="form-control-t form-input-number" name="phone" maxlength="10">
+                        </div>
+                        <span class="form-message"></span>
+                    </div>
+                    <div class="form-group-t">
+                        <label for="password" class="form-label">Mật khẩu</label>
+                        <div class="block-password">
+                            <input type="password" id="password" class="form-control-t" name="password" autocomplete="new-password">
+                            <ion-icon name="eye-off-outline" class="show-password"></ion-icon>
+                        </div>
+                        <span class="form-message"></span>
+                    </div>
+                    <div class="form-group-t">
+                        <label for="id-intro" class="form-label">Id giới thiệu(không bắt buộc)<ion-icon name="caret-down-outline" class="show-id-intro"></ion-icon></label>
+                        <input type="text" id="id-intro" class="form-control-t hide" name="id-intro">
+                    </div>
+                    <div class="form-group-t">
+                        <input type="checkbox" id="agree-rules" checked="">
+                        <label for="agree-rules" class="agree-rules-label">Tôi đã đọc và đồng ý với <a href="#" class="login-link ">Điều khoản Dịch vụ</a> của Largeer</label>
+                    </div>
+                    <button type="submit" class="form-register-btn btn btn-blue form-btn">Tạo tài khoản</button>
+                </form>
+                <div class="registered">Đã đăng ký rồi? <a href="#" class="login-link ">Đăng nhập</a></div>
+            </div>
+        </div>
+    </main>
+    <!-- <footer id="footer" class="footer">
+        <div class="w-1080 footer-wrapper">
+            <div class="footer-block1">
+                <div class="footer-block1__left">
+                    <img src="./images/Logo_KinhTeVietNam 2.svg" alt="" class="block1__avatar">
+                    <div class="block1__content">
+                        <p class="block1__text">MXH <span>Largeer</span> đang trong quá trình thử nghiệm người dùng</p>
+                        <p class="block1__text"><span>CÔNG TY TNHH CÔNG NGHỆ TRUYỀN THÔNG EXPLUS</span></p>
+                        <p class="block1__text">Địa chỉ: tầng M, tòa nhà VG Building, ngõ 235 Nguyễn Trãi, Hà Nội</p>
+                    </div>
+                </div>
+                <div class="footer-block1__right">
+                    <p class="block1__text">Chịu trách nhiệm nội dung: <span>Nguyễn Văn A</span></p>
+                </div>
+            </div>
+            <div class="footer-block2">
+                <ul class="footer-block2-list">
+                    <li class="footer-block2__items"><a href="#">Về chúng tôi</a></li>
+                    <li class="footer-block2__items"><a href="#">Điều khoản</a></li>
+                    <li class="footer-block2__items"><a href="#">Pháp Lý</a></li>
+                    <li class="footer-block2__items"><a href="#">Quảng cáo</a></li>
+                    <li class="footer-block2__items"><a href="#">Trợ giúp</a></li>
+                    <li class="footer-block2__items"><a href="#">Liên hệ</a></li>
+                </ul>
+            </div>
+            <div class="footer-block3">© 2021 Explus. All Rights Reserved</div>
+        </div>
+    </footer> -->
+    <script src="./font-awesome/fontawesome-free-5.15.4-web/js/fontawesome.min.js"></script>    
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
