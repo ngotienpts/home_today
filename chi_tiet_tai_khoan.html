@@ -1,0 +1,1097 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thông tin bất động sản, nhà đẹp, mua bán nhà đất mới nhất.</title>
+    <link rel="icon" href="./images/favicon.svg" sizes="32x32" />
+    <meta name="title" content="" />
+    <meta name="description" content="" />
+    <!-- chia sẻ qua facebook -->
+    <meta property="og:locale" content="vi" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Trang chủ" />
+    <meta property="og:description" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:site_name" content="" />
+    <meta property="og:image" content="" />
+    <!-- end chia sẻ qua facebook -->
+    <!-- chia sẻ qua twitter -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Trang chủ" />
+    <meta name="twitter:description" content="" />
+    <meta name="twitter:image" content="" />
+    <!-- chia sẻ qua twitter -->
+    <link
+      rel="stylesheet"
+      href="./font-awesome/fontawesome-free-5.15.4-web/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <header id="header">
+      <div class="header w-1280 header-col-3">
+        <div class="header-left">
+          <a href="#">
+            <img src="./images/largeer_logo.svg" alt="" class="logo-img1" />
+          </a>
+          <!-- bar menu mobile -->
+          <div class="header-left-bar show-sub-menu">
+            <i class="fas fa-bars"></i>
+          </div>
+          <!-- end bar menu mobile -->
+        </div>
+        <div class="header-center">
+          <form action="" class="flex-1">
+            <div class="form-group header-search">
+              <input
+                type="text"
+                name="search"
+                placeholder="Tìm kiếm bài viết..."
+                class="search-header"
+              />
+              <button class="btn btn-search">
+                <img
+                  src="./images/search.svg"
+                  alt=""
+                  class="search-header-icon"
+                />
+              </button>
+            </div>
+          </form>
+        </div>
+        <div class="header-right">
+          <!-- register/login  -->
+          <div class="register-login fs-12">
+            <a href="./register.html" class="btn btn-register">Đăng ký</a>
+            <a href="./login.html" class="btn btn-login">Đăng nhập</a>
+          </div>
+          <!-- end register/login  -->
+        </div>
+      </div>
+    </header>
+    <!-- form dang nhap -->
+    <div class="login-wrapper">
+      <div class="login-form">
+        <form action="">
+          <div class="login-header">Tài khoản Largeer</div>
+          <div class="lgoin-text pb-20">
+            Nếu bạn chưa có tài khoản hãy
+            <a href="#" class="login-link f-bold"> Đăng ký</a> tại đây!
+          </div>
+          <div class="login-header pt-15">Đăng nhập</div>
+          <div class="form-group1">
+            <label for="input-number" class="lgoin-text"
+              >Nhập số điện thoại của bạn</label
+            >
+            <input
+              type="text"
+              maxlength="10"
+              id="input-number"
+              name=""
+              class="input-number input-number--m25"
+              placeholder="Số điện thoại"
+            />
+            <span class="token-notifi"
+              >* Bạn hãy nhập đúng số điện thoại *</span
+            >
+          </div>
+          <div class="form-group1 pb-20 pt-15">
+            <input type="checkbox" id="agree-rules" checked />
+            <label for="agree-rules" class="agree-rules-label"
+              >Tôi đồng ý
+              <a href="#" class="login-link">điều khoản và điều kiện</a></label
+            >
+          </div>
+          <div class="">
+            <button type="submit" class="login-btn btn btn-blue">
+              Tiếp tục
+            </button>
+            <span class="login-btn login-btn-close button-cancel btn">Hủy</span>
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- end form dang nhap -->
+    <!-- sub menu mobile -->
+    <div class="sub-menu-block">
+      <!-- search -->
+      <div class="search-mb">
+        <span class="close-search"><i class="fas fa-times"></i></span>
+        <form action="" class="flex-1">
+          <div class="form-group header-search">
+            <input
+              type="text"
+              name="search"
+              placeholder="Tìm kiếm bài viết..."
+              class="search-header"
+            />
+            <button class="btn btn-search">
+              <img
+                src="./images/search.svg"
+                alt=""
+                class="search-header-icon"
+              />
+            </button>
+          </div>
+        </form>
+        <a href="./register.html" class="btn btn-register">Đăng ký</a>
+        <a href="./login.html" class="btn btn-login">Đăng nhập</a>
+      </div>
+      <!-- end search -->
+    </div>
+    <!-- end sub menu mobile -->
+    <main id="main">
+      <div class="user-wrapper w-1000">
+        <!-- left -->
+        <div class="user-left-wrapper">
+          <div class="user-left">
+            <div class="user-left__info">
+              <!-- avatar -->
+              <img src="./images/food.jpg" alt="" class="ava" />
+              <!-- end avatar -->
+              <h3 class="name">Nguyen Van A</h3>
+              <div class="join-date">
+                <p>Tham gia từ</p>
+                <span><i class="fas fa-birthday-cake pr-5"></i>20/10/2022</span>
+              </div>
+            </div>
+            <ul class="user-left__link">
+              <li class="user-left__link-item">
+                <a href="#">Hoạt động bình luận</a>
+              </li>
+              <li class="user-left__link-item">
+                <a href="#">Tin đã lưu</a>
+              </li>
+              <li class="user-left__link-item li_bd">
+                <a href="#">Tin đã xem</a>
+              </li>
+              <li class="user-left__link-item li_bd">
+                <a href="#" class="active">Tài khoản của tôi</a>
+              </li>
+              <li class="user-left__link-item">
+                <a href="#">Thoát<i class="fas fa-sign-out-alt pl-5"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- end left -->
+        <!-- right -->
+        <div class="user-right-wrapper">
+          <div class="user-right">
+            <div id="home_user" class="width_common box_category">
+              <div class="width_common tit_page_user">Tài khoản của tôi</div>
+              <div class="width_common wrapper_user">
+                <div class="width_common row_info_user" id="box_upload">
+                  <div class="tit_row">Ảnh đại diện</div>
+                  <div class="width_common box_upload_anh">
+                    <label
+                      for="act_upload"
+                      class="act_upload flex"
+                      id="myvne_change_avatar_button"
+                    >
+                      <input type="button" class="input_file" id="act_upload" />
+                      <input type="file" class="getFile">
+                      <i class="fas fa-cloud-upload-alt"></i>
+                      <span class="txt_up">Tải lên ảnh đại diện mới</span>
+                    </label>
+                    <input
+                      type="hidden"
+                      id="myvne_avatar_input"
+                      name="myvne_avatar"
+                      value=""
+                    />
+                    <div class="width_common upload_complete flex" style="">
+                      <span class="close_edit">&times;</span>
+                      <span class="img_upload_c">
+                        <img id="myvne_avatar_img" src="./images/food.jpg" />
+                      </span>
+                      <span class="txt_note_upload name_file_upload"></span>
+                      <div class="item_input_log item_button_act">
+                        <button
+                          id="btn_save_avatar"
+                          class="pri_button btn_log has_transition"
+                        >
+                          Lưu lại
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="width_common row_info_user">
+                  <div class="tit_row">Tài khoản</div>
+                  <div class="width_common list_fill_user">
+                    <div class="item_fill_user">
+                      <div class="label_fill">Email</div>
+                      <div class="ctn_fill">
+                        <p class="main_txt">
+                          ngotienpts@gmail.com&nbsp;&nbsp;&nbsp;
+                        </p>
+                        <div
+                          id="form_update_email"
+                          class="width_common box_edit_form is_hide"
+                          style=""
+                        >
+                          <span class="close_edit">×</span>
+                          <p class="width_common tit_edit">Đổi email</p>
+                          <div class="width_common form_edit form_log">
+                            <div class="item_input_log">
+                              <input
+                                id="txtPassword"
+                                class="input_form has_transition input_pass"
+                                type="password"
+                                placeholder="Nhập mật khẩu"
+                              />
+                              <span class="icon_eye_show_null icon_input">
+                                <svg class="icon eye-show">
+                                  <use
+                                    xlink:href="#eye-show"
+                                    style="fill: #828282"
+                                  ></use>
+                                </svg>
+                              </span>
+                              <span
+                                class="icon_eye_show icon_input"
+                                style="display: none"
+                              >
+                                hiện
+                                <svg class="icon eye-show">
+                                  <use xlink:href="#eye-show"></use>
+                                </svg>
+                              </span>
+                              <span
+                                class="icon_eye_hide icon_input"
+                                style="display: none"
+                              >
+                                ẩn
+                                <svg class="icon eye-hide">
+                                  <use xlink:href="#eye-hide"></use>
+                                </svg>
+                              </span>
+                              <span
+                                class="error_password width_common mess_error"
+                              ></span>
+                            </div>
+                            <div class="item_input_log">
+                              <input
+                                id="txtEmail"
+                                class="input_form has_transition"
+                                type="text"
+                                placeholder="Nhập email mới"
+                                autocomplete="rutjfkde"
+                                onfocus="this.removeAttribute('readonly');"
+                                oncopy="return false"
+                                ondrag="return false"
+                                ondrop="return false"
+                                onpaste="return false"
+                                oncontextmenu="return false"
+                              />
+                              <span
+                                class="error_email width_common mess_error"
+                              ></span>
+                            </div>
+                            <div class="item_input_log item_button_act">
+                              <button
+                                id="btn_save_email"
+                                class="pri_button btn_log has_transition btn_disable"
+                                disabled="disabled"
+                              >
+                                Lưu lại
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                        <a
+                          id="btn_change_email"
+                          href="javascript:void(0)"
+                          class="click_edit js_click_edit"
+                          >Thay đổi</a
+                        >
+                      </div>
+                    </div>
+
+                    <div class="item_fill_user">
+                      <div class="label_fill">Điện thoại</div>
+                      <div class="ctn_fill">
+                        <p class="txt_mobile main_txt txt_red">
+                          Chưa có số điện thoại
+                        </p>
+                        <div
+                          id="form_update_mobile"
+                          class="width_common box_edit_form is_hide"
+                          style=""
+                        >
+                          <span class="close_edit">×</span>
+                          <p class="width_common tit_edit">Số điện thoại</p>
+                          <div class="width_common form_edit form_log">
+                            <div class="item_input_log">
+                              <input
+                                id="txtMobile"
+                                class="input_form has_transition"
+                                type="text"
+                                placeholder="Nhập số điện thoại"
+                              />
+                              <span
+                                class="error_mobile width_common mess_error"
+                              ></span>
+                            </div>
+                            <div class="item_input_log item_button_act">
+                              <button
+                                id="btn_save_mobile"
+                                class="pri_button btn_log has_transition btn_disable"
+                                disabled="disabled"
+                              >
+                                Lưu lại
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                        <p class="sub_txt">
+                          VnExpress cam kết bảo mật thông tin này
+                        </p>
+                        <a
+                          id="btn_change_mobile"
+                          href="javascript:void(0)"
+                          class="click_edit js_click_edit"
+                          >Thêm</a
+                        >
+                      </div>
+                    </div>
+
+                    <div class="item_fill_user">
+                      <div class="label_fill">Mật khẩu</div>
+                      <div class="ctn_fill">
+                        <p class="main_txt">
+                          <input
+                            type="password"
+                            readonly=""
+                            value="1111111111111"
+                            style="font-size: 20px; width: unset !important"
+                          />
+                        </p>
+                        <div
+                          id="form_update_password"
+                          class="width_common box_edit_form is_hide"
+                          style=""
+                        >
+                          <span class="close_edit">×</span>
+                          <p class="width_common tit_edit">Đổi mật khẩu</p>
+                          <div class="width_common form_edit form_log">
+                            <div class="item_input_log">
+                              <input
+                                id="pass_old"
+                                class="input_form has_transition input_pass"
+                                type="password"
+                                placeholder="Nhập mật khẩu cũ"
+                              />
+                              <span class="icon_eye_show_null icon_input">
+                                <svg class="icon eye-show">
+                                  <use
+                                    xlink:href="#eye-show"
+                                    style="fill: #828282"
+                                  ></use>
+                                </svg>
+                              </span>
+                              <span
+                                class="icon_eye_show icon_input"
+                                style="display: none"
+                              >
+                                hiện
+                                <svg class="icon eye-show">
+                                  <use xlink:href="#eye-show"></use>
+                                </svg>
+                              </span>
+                              <span
+                                class="icon_eye_hide icon_input"
+                                style="display: none"
+                              >
+                                ẩn
+                                <svg class="icon eye-hide">
+                                  <use xlink:href="#eye-hide"></use>
+                                </svg>
+                              </span>
+                              <span
+                                class="error_password_old width_common mess_error"
+                              ></span>
+                            </div>
+                            <div class="item_input_log">
+                              <input
+                                id="pass_new"
+                                class="input_form has_transition input_pass"
+                                type="password"
+                                placeholder="Tạo mật khẩu mới"
+                              />
+                              <span class="icon_eye_show_null icon_input">
+                                <svg class="icon eye-show">
+                                  <use
+                                    xlink:href="#eye-show"
+                                    style="fill: #828282"
+                                  ></use>
+                                </svg>
+                              </span>
+                              <span
+                                class="icon_eye_show icon_input"
+                                style="display: none"
+                              >
+                                hiện
+                                <svg class="icon eye-show">
+                                  <use xlink:href="#eye-show"></use>
+                                </svg>
+                              </span>
+                              <span
+                                class="icon_eye_hide icon_input"
+                                style="display: none"
+                              >
+                                ẩn
+                                <svg class="icon eye-hide">
+                                  <use xlink:href="#eye-hide"></use>
+                                </svg>
+                              </span>
+                              <span
+                                class="error_password_new width_common mess_error"
+                              ></span>
+                            </div>
+                            <div class="item_input_log item_button_act">
+                              <button
+                                id="btn_save_password"
+                                class="pri_button btn_log has_transition btn_disable"
+                                disabled="disabled"
+                              >
+                                Lưu lại
+                              </button>
+                              <div class="right note_edit_mk">
+                                Quên mật khẩu?
+                                <a
+                                  href="javascript:void(0)"
+                                  id="btn_forgot_pass"
+                                  data-email="ngotienpts@gmail.com"
+                                  >Lấy lại mật khẩu</a
+                                >
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <a
+                          id="btn_change_password"
+                          href="javascript:void(0)"
+                          class="click_edit js_click_edit"
+                          >Đổi mật khẩu</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--  -->
+                <div class="width_common row_info_user">
+                  <div class="tit_row">Thông tin cá nhân</div>
+                  <div class="width_common list_fill_user">
+                    <div class="item_fill_user">
+                      <div class="label_fill">Họ và tên</div>
+                      <div class="ctn_fill">
+                        <p class="main_txt">ngotienpts</p>
+                        <div
+                          id="form_update_fullname"
+                          class="width_common box_edit_form is_hide"
+                          style=""
+                        >
+                          <span class="close_edit">×</span>
+                          <p class="width_common tit_edit" id="ho_ten">
+                            Họ và tên
+                          </p>
+                          <div
+                            class="width_common form_edit form_log"
+                            id="form_ho_ten"
+                          >
+                            <div class="item_input_log">
+                              <input
+                                id="txtFullname"
+                                class="input_form has_transition"
+                                type="text"
+                                placeholder="Nhập họ và tên"
+                              />
+                              <span
+                                class="error_fullname width_common mess_error"
+                              ></span>
+                            </div>
+                            <div class="item_input_log item_button_act">
+                              <button
+                                id="btn_save_fullname"
+                                class="pri_button btn_log has_transition btn_disable"
+                                disabled="disabled"
+                              >
+                                Lưu lại
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                        <p class="sub_txt">
+                          Hiển thị khi bạn tham gia bình luận
+                        </p>
+                        <a
+                          id="btn_change_fullname"
+                          href="javascript:void(0)"
+                          class="click_edit js_click_edit"
+                          >Thay đổi</a
+                        >
+                      </div>
+                    </div>
+
+                    <div class="item_fill_user">
+                      <div class="label_fill">Giới tính</div>
+                      <div class="ctn_fill">
+                        <p class="val_sex main_txt">Khác</p>
+                        <div
+                          id="form_update_sex"
+                          class="width_common box_edit_form is_hide"
+                          style=""
+                        >
+                          <span class="close_edit">×</span>
+                          <p class="width_common tit_edit">Giới tính</p>
+                          <div class="width_common form_edit form_log">
+                            <div class="item_input_log">
+                              <p class="gt_option flex">
+                                <label for="sl_nam"
+                                  ><input
+                                    type="radio"
+                                    name="sex"
+                                    id="sl_nam"
+                                    value="1"
+                                  />
+                                  Nam</label
+                                >
+                                <label for="sl_nu"
+                                  ><input
+                                    type="radio"
+                                    name="sex"
+                                    id="sl_nu"
+                                    value="2"
+                                  />
+                                  Nữ</label
+                                >
+                                <label for="sl_khac"
+                                  ><input
+                                    checked=""
+                                    type="radio"
+                                    name="sex"
+                                    id="sl_khac"
+                                    value="0"
+                                  />
+                                  Khác</label
+                                >
+                              </p>
+                              <span
+                                class="error_sex width_common mess_error"
+                              ></span>
+                            </div>
+                            <div class="item_input_log item_button_act">
+                              <button
+                                id="btn_save_sex"
+                                class="pri_button btn_log has_transition"
+                              >
+                                Lưu lại
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                        <p class="sub_txt">
+                          VnExpress cam kết bảo mật thông tin này
+                        </p>
+                        <a
+                          id="btn_change_sex"
+                          href="javascript:void(0)"
+                          class="click_edit js_click_edit"
+                          >Thêm</a
+                        >
+                      </div>
+                    </div>
+
+                    <div class="item_fill_user">
+                      <div class="label_fill">Địa điểm</div>
+                      <div class="ctn_fill">
+                        <p class="txt_address main_txt txt_red">
+                          Chưa chọn địa điểm
+                        </p>
+                        <div
+                          id="form_update_address"
+                          class="width_common box_edit_form is_hide"
+                          style=""
+                        >
+                          <span class="close_edit">×</span>
+                          <p class="width_common tit_edit">Địa điểm</p>
+                          <div class="width_common form_edit form_log">
+                            <div class="item_input_log">
+                              <select
+                                name="myvne_country"
+                                id="myvne_country"
+                                class="input_form has_transition"
+                              >
+                                <option value="1">Việt Nam</option>
+                                <option value="31122">Anh</option>
+                                <option value="31123">Phần Lan</option>
+                                <option value="31124">Đức</option>
+                                <option value="31125">Hà Lan</option>
+                                <option value="31126">Monaco</option>
+                                <option value="31127">Pháp</option>
+                                <option value="31128">Tây Ban Nha</option>
+                                <option value="31129">Australia</option>
+                                <option value="31130">Đan Mạch</option>
+                                <option value="31131">Mexico</option>
+                                <option value="31132">Nga</option>
+                                <option value="31133">Thái Lan</option>
+                                <option value="31134">Canada</option>
+                                <option value="31135">Italy</option>
+                                <option value="31136">Ba Lan</option>
+                                <option value="31137">Áo</option>
+                                <option value="31138">Bahrain</option>
+                                <option value="31139">Trung Quốc</option>
+                                <option value="31140">Azerbaijan</option>
+                                <option value="31141">Hungary</option>
+                                <option value="31142">Bỉ</option>
+                                <option value="31143">Nhật Bản</option>
+                                <option value="31144">Singapore</option>
+                                <option value="31145">Mỹ</option>
+                                <option value="31146">Brazil</option>
+                                <option value="31147">UAE</option>
+                                <option value="31148">Thụy Sĩ</option>
+                                <option value="31149">Afghanistan</option>
+                                <option value="31150">Albania</option>
+                                <option value="31151">Algeria</option>
+                                <option value="31152">Samoa thuộc Mỹ</option>
+                                <option value="31153">Andorra</option>
+                                <option value="31154">Angola</option>
+                                <option value="31155">Anguilla</option>
+                                <option value="31156">Antarctica</option>
+                                <option value="31157">
+                                  Antigua và Barbuda
+                                </option>
+                                <option value="31158">Argentina</option>
+                                <option value="31159">Armenia</option>
+                                <option value="31160">Aruba</option>
+                                <option value="31161">Bahamas</option>
+                                <option value="31162">Bangladesh</option>
+                                <option value="31163">Barbados</option>
+                                <option value="31164">Belarus</option>
+                                <option value="31165">Belize</option>
+                                <option value="31166">Benin</option>
+                                <option value="31167">Bermuda</option>
+                                <option value="31168">Bhutan</option>
+                                <option value="31169">Bolivia</option>
+                                <option value="31170">Bonaire</option>
+                                <option value="31171">
+                                  Bosnia và Herzegovina
+                                </option>
+                                <option value="31172">Botswana</option>
+                                <option value="31173">Đảo Bouvet</option>
+                                <option value="31174">
+                                  Lãnh thổ Ấn Độ Dương thuộc Anh
+                                </option>
+                                <option value="31175">
+                                  Nhà nước Brunei Darussalam
+                                </option>
+                                <option value="31176">Bulgaria</option>
+                                <option value="31177">Burkina Faso</option>
+                                <option value="31178">Burundi</option>
+                                <option value="31179">Campuchia</option>
+                                <option value="31180">Cameroon</option>
+                                <option value="31181">Cape Verde</option>
+                                <option value="31182">Quần đảo Cayman</option>
+                                <option value="31183">Trung Phi</option>
+                                <option value="31184">Sát (Tchad)</option>
+                                <option value="31185">Chile</option>
+                                <option value="31186">Đảo Giáng Sinh</option>
+                                <option value="31187">Quần đảo Cocos</option>
+                                <option value="31188">Colombia</option>
+                                <option value="31189">Comoros</option>
+                                <option value="31190">Cộng hòa Congo</option>
+                                <option value="31191">
+                                  Cộng hòa Dân chủ Congo
+                                </option>
+                                <option value="31192">Quần đảo Cook</option>
+                                <option value="31193">Costa Rica</option>
+                                <option value="31194">Croatia</option>
+                                <option value="31195">Cuba</option>
+                                <option value="31196">Curacao</option>
+                                <option value="31197">Síp</option>
+                                <option value="31198">Séc</option>
+                                <option value="31199">Bờ Biển Ngà</option>
+                                <option value="31200">Djibouti</option>
+                                <option value="31201">Dominica</option>
+                                <option value="31202">Cộng hòa Dominica</option>
+                                <option value="31203">Ecuador</option>
+                                <option value="31204">Ai Cập</option>
+                                <option value="31205">El Salvador</option>
+                                <option value="31206">Guinea Xích Đạo</option>
+                                <option value="31207">Eritrea</option>
+                                <option value="31208">Estonia</option>
+                                <option value="31209">Ethiopia</option>
+                                <option value="31210">Quần đảo Falkland</option>
+                                <option value="31211">Quần đảo Faroe</option>
+                                <option value="31212">Fiji</option>
+                                <option value="31213">Guiana thuộc Pháp</option>
+                                <option value="31214">
+                                  Polynesia thuộc Pháp
+                                </option>
+                                <option value="31215">
+                                  Vùng đất phía Nam và châu Nam Cực thuộc Pháp
+                                </option>
+                                <option value="31216">Gabon</option>
+                                <option value="31217">Gambia</option>
+                                <option value="31218">Georgia</option>
+                                <option value="31219">Đức</option>
+                                <option value="31220">Ghana</option>
+                                <option value="31221">Gibraltar</option>
+                                <option value="31222">Hy Lạp</option>
+                                <option value="31223">
+                                  Một quốc gia tự trị thuộc Đan Mạch
+                                </option>
+                                <option value="31224">Grenada</option>
+                                <option value="31225">Guadeloupe</option>
+                                <option value="31226">Đảo Guam</option>
+                                <option value="31227">Guatemala</option>
+                                <option value="31228">Guernsey</option>
+                                <option value="31229">Guinea</option>
+                                <option value="31230">Guinea-Bissau</option>
+                                <option value="31231">Guyana</option>
+                                <option value="31232">Haiti</option>
+                                <option value="31233">
+                                  Đảo Heard và quần đảo McDonald
+                                </option>
+                                <option value="31234">Tòa thánh Vatican</option>
+                                <option value="31235">Honduras</option>
+                                <option value="31236">Hồng Kông</option>
+                                <option value="31237">Iceland</option>
+                                <option value="31238">Ấn Độ</option>
+                                <option value="31239">Indonesia</option>
+                                <option value="31240">Iran</option>
+                                <option value="31241">Iraq</option>
+                                <option value="31242">Ireland</option>
+                                <option value="31243">Đảo Man</option>
+                                <option value="31244">Israel</option>
+                                <option value="31245">Jamaica</option>
+                                <option value="31246">Jersey</option>
+                                <option value="31247">Jordan</option>
+                                <option value="31248">Kazakhstan</option>
+                                <option value="31249">Kenya</option>
+                                <option value="31250">Kiribati</option>
+                                <option value="31251">Triều tiên</option>
+                                <option value="31252">Hàn Quốc</option>
+                                <option value="31253">Kuwait</option>
+                                <option value="31254">Kyrgyzstan</option>
+                                <option value="31255">Lào</option>
+                                <option value="31256">Latvia</option>
+                                <option value="31257">Lebanon</option>
+                                <option value="31258">Lesotho</option>
+                                <option value="31259">Liberia</option>
+                                <option value="31260">Libya</option>
+                                <option value="31261">Liechtenstein</option>
+                                <option value="31262">Lithuania</option>
+                                <option value="31263">Luxembourg</option>
+                                <option value="31264">Macao</option>
+                                <option value="31265">Macedonia</option>
+                                <option value="31266">Madagascar</option>
+                                <option value="31267">Malawi</option>
+                                <option value="31268">Malaysia</option>
+                                <option value="31269">Maldives</option>
+                                <option value="31270">Mali</option>
+                                <option value="31271">Malta</option>
+                                <option value="31272">Quần đảo Marshall</option>
+                                <option value="31273">Martinique</option>
+                                <option value="31274">Mauritania</option>
+                                <option value="31275">Mauritius</option>
+                                <option value="31276">Mayotte</option>
+                                <option value="31277">
+                                  Liên bang Micronesia
+                                </option>
+                                <option value="31278">Moldova</option>
+                                <option value="31279">Mông Cổ</option>
+                                <option value="31280">Montenegro</option>
+                                <option value="31281">Montserrat</option>
+                                <option value="31282">Ma Rốc (Maroc)</option>
+                                <option value="31283">Mozambique</option>
+                                <option value="31284">Myanmar</option>
+                                <option value="31285">Namibia</option>
+                                <option value="31286">Nauru</option>
+                                <option value="31287">Nepal</option>
+                                <option value="31288">Hà Lan</option>
+                                <option value="31289">New Caledonia</option>
+                                <option value="31290">New Zealand</option>
+                                <option value="31291">Nicaragua</option>
+                                <option value="31292">Niger</option>
+                                <option value="31293">Nigeria</option>
+                                <option value="31294">Niue</option>
+                                <option value="31295">Đảo Norfolk</option>
+                                <option value="31296">
+                                  Quần đảo Bắc Mariana
+                                </option>
+                                <option value="31297">Na Uy</option>
+                                <option value="31298">Oman</option>
+                                <option value="31299">Pakistan</option>
+                                <option value="31300">Palau</option>
+                                <option value="31301">Palestine</option>
+                                <option value="31302">Panama</option>
+                                <option value="31303">Papua New Guinea</option>
+                                <option value="31304">Paraguay</option>
+                                <option value="31305">Peru</option>
+                                <option value="31306">Philippines</option>
+                                <option value="31307">Pitcairn</option>
+                                <option value="31308">Bồ Đào Nha</option>
+                                <option value="31309">Puerto Rico</option>
+                                <option value="31310">Qatar</option>
+                                <option value="31311">Romania</option>
+                                <option value="31312">Rwanda</option>
+                                <option value="31313">Reunion</option>
+                                <option value="31314">Saint Barthelemy</option>
+                                <option value="31315">Saint Helena</option>
+                                <option value="31316">
+                                  Saint Kitts và Nevis
+                                </option>
+                                <option value="31317">Saint Lucia</option>
+                                <option value="31318">
+                                  Saint Martin (French part)
+                                </option>
+                                <option value="31319">
+                                  Saint Pierre và Miquelon
+                                </option>
+                                <option value="31320">
+                                  Saint Vincent và the Grenadines
+                                </option>
+                                <option value="31321">Samoa</option>
+                                <option value="31322">San Marino</option>
+                                <option value="31323">
+                                  Sao Tome và Principe
+                                </option>
+                                <option value="31324">Ả Rập Xê Út</option>
+                                <option value="31325">Senegal</option>
+                                <option value="31326">Serbia</option>
+                                <option value="31327">Seychelles</option>
+                                <option value="31328">Sierra Leone</option>
+                                <option value="31329">Sint Maarten</option>
+                                <option value="31330">Slovakia</option>
+                                <option value="31331">Slovenia</option>
+                                <option value="31332">Quần đảo Solomon</option>
+                                <option value="31333">Somalia</option>
+                                <option value="31334">Nam Phi</option>
+                                <option value="31335">
+                                  Nam Georgia và Quần đảo Nam Sandwich
+                                </option>
+                                <option value="31336">Nam Sudan</option>
+                                <option value="31337">Sri Lanka</option>
+                                <option value="31338">Sudan</option>
+                                <option value="31339">Suriname</option>
+                                <option value="31340">
+                                  Svalbard và Jan Mayen
+                                </option>
+                                <option value="31341">Swaziland</option>
+                                <option value="31342">Thụy Điển</option>
+                                <option value="31343">Syria</option>
+                                <option value="31344">Đài Loan</option>
+                                <option value="31345">Tajikistan</option>
+                                <option value="31346">Tanzania</option>
+                                <option value="31347">Đông Timor</option>
+                                <option value="31348">Togo</option>
+                                <option value="31349">Tokelau</option>
+                                <option value="31350">Tonga</option>
+                                <option value="31351">
+                                  Trinidad và Tobago
+                                </option>
+                                <option value="31352">Tunisia</option>
+                                <option value="31353">Thổ Nhĩ Kỳ</option>
+                                <option value="31354">Turkmenistan</option>
+                                <option value="31355">
+                                  Quần đảo Turks và Caicos
+                                </option>
+                                <option value="31356">Tuvalu</option>
+                                <option value="31357">Uganda</option>
+                                <option value="31358">Ukraine</option>
+                                <option value="31359">
+                                  Các tiểu đảo xa của Hoa Kỳ
+                                </option>
+                                <option value="31360">Uruguay</option>
+                                <option value="31361">Uzbekistan</option>
+                                <option value="31362">Vanuatu</option>
+                                <option value="31363">Venezuela</option>
+                                <option value="31365">
+                                  Quần đảo Virgin thuộc Anh
+                                </option>
+                                <option value="31366">
+                                  Quần đảo Virgin thuộc Mỹ
+                                </option>
+                                <option value="31367">Wallis và Futuna</option>
+                                <option value="31368">Tây Sahara</option>
+                                <option value="31369">Yemen</option>
+                                <option value="31370">Zambia</option>
+                                <option value="31371">Zimbabwe</option>
+                              </select>
+                            </div>
+                            <div class="item_input_log">
+                              <select
+                                name="myvne_city"
+                                id="myvne_city"
+                                class="input_form has_transition"
+                                style=""
+                              >
+                                <option value="2">Hà Nội</option>
+                                <option value="3">Hồ Chí Minh</option>
+                                <option value="4">Bình Dương</option>
+                                <option value="5">Đà Nẵng</option>
+                                <option value="6">Hải Phòng</option>
+                                <option value="7">Long An</option>
+                                <option value="8">Bà Rịa - Vũng Tàu</option>
+                                <option value="9">An Giang</option>
+                                <option value="10">Bắc Giang</option>
+                                <option value="11">Bắc Kạn</option>
+                                <option value="12">Bạc Liêu</option>
+                                <option value="13">Bắc Ninh</option>
+                                <option value="14">Bến Tre</option>
+                                <option value="15">Bình Định</option>
+                                <option value="16">Bình Phước</option>
+                                <option value="17">Bình Thuận</option>
+                                <option value="18">Cà Mau</option>
+                                <option value="19">Cần Thơ</option>
+                                <option value="20">Cao Bằng</option>
+                                <option value="21">Đắk Lắk</option>
+                                <option value="22">Đắk Nông</option>
+                                <option value="23">Điện Biên</option>
+                                <option value="24">Đồng Nai</option>
+                                <option value="25">Đồng Tháp</option>
+                                <option value="26">Gia Lai</option>
+                                <option value="27">Hà Giang</option>
+                                <option value="28">Hà Nam</option>
+                                <option value="29">Hà Tĩnh</option>
+                                <option value="30">Hải Dương</option>
+                                <option value="31">Hậu Giang</option>
+                                <option value="32">Hòa Bình</option>
+                                <option value="33">Hưng Yên</option>
+                                <option value="34">Khánh Hòa</option>
+                                <option value="35">Kiên Giang</option>
+                                <option value="36">Kon Tum</option>
+                                <option value="37">Lai Châu</option>
+                                <option value="38">Lâm Đồng</option>
+                                <option value="39">Lạng Sơn</option>
+                                <option value="40">Lào Cai</option>
+                                <option value="41">Nam Định</option>
+                                <option value="42">Nghệ An</option>
+                                <option value="43">Ninh Bình</option>
+                                <option value="44">Ninh Thuận</option>
+                                <option value="45">Phú Thọ</option>
+                                <option value="46">Phú Yên</option>
+                                <option value="47">Quảng Bình</option>
+                                <option value="48">Quảng Nam</option>
+                                <option value="49">Quảng Ngãi</option>
+                                <option value="50">Quảng Ninh</option>
+                                <option value="51">Quảng Trị</option>
+                                <option value="52">Sóc Trăng</option>
+                                <option value="53">Sơn La</option>
+                                <option value="54">Tây Ninh</option>
+                                <option value="55">Thái Bình</option>
+                                <option value="56">Thái Nguyên</option>
+                                <option value="57">Thanh Hóa</option>
+                                <option value="58">Thừa Thiên Huế</option>
+                                <option value="59">Tiền Giang</option>
+                                <option value="60">Trà Vinh</option>
+                                <option value="61">Tuyên Quang</option>
+                                <option value="62">Vĩnh Long</option>
+                                <option value="63">Vĩnh Phúc</option>
+                                <option value="64">Yên Bái</option>
+                              </select>
+                            </div>
+                            <div class="item_input_log item_button_act">
+                              <button
+                                id="btn_save_address"
+                                class="pri_button btn_log has_transition"
+                              >
+                                Lưu lại
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                        <p class="sub_txt">
+                          VnExpress cam kết bảo mật thông tin này
+                        </p>
+                        <a
+                          id="btn_change_address"
+                          href="javascript:void(0)"
+                          class="click_edit js_click_edit"
+                          >Thêm</a
+                        >
+                      </div>
+                    </div>
+
+                    <div class="width_common row_info_user row_mangxahoi">
+                      <div class="tit_row">Mạng xã hội</div>
+                      <div class="width_common list_fill_user">
+                        <div class="item_fill_user">
+                          <div class="label_fill">
+                            <img
+                              src="https://s1.vnecdn.net/myvne/i/v67/icons/facebook_ico.svg"
+                              alt=""
+                            />Facebook
+                          </div>
+                          <div class="ctn_fill">
+                            <p class="main_txt">Chưa liên kết</p>
+                            <a
+                              id="mapping_facebook"
+                              href="javascript:void(0)"
+                              class="click_edit"
+                              >Liên kết</a
+                            >
+                          </div>
+                        </div>
+
+                        <div class="item_fill_user">
+                          <div class="label_fill">
+                            <img
+                              src="https://s1.vnecdn.net/myvne/i/v67/icons/google_ico.svg"
+                              alt=""
+                            />Google
+                          </div>
+                          <div class="ctn_fill">
+                            <p class="main_txt">
+                              <span class="txt_blue">Đang liên kết</span>
+                            </p>
+                            <a
+                              id="off_mapping_google"
+                              href="javascript:void(0)"
+                              class="click_edit"
+                              >Ngắt liên kết</a
+                            >
+                          </div>
+                        </div>
+
+                        <div class="item_fill_user item_delete_user">
+                          <div class="label_fill">Xóa tài khoản</div>
+                          <div class="ctn_fill">
+                            <p class="main_txt">&nbsp;</p>
+                            <a
+                              href="javascript:void(0)"
+                              class="click_edit"
+                              id="btnDelAcc"
+                              >Xóa tài khoản của bạn</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end right -->
+      </div>
+    </main>
+
+    <script src="./font-awesome/fontawesome-free-5.15.4-web/js/fontawesome.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
